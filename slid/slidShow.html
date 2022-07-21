@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Yuji+Mai&display=swap" rel="stylesheet">
+  
+    <script src="https://kit.fontawesome.com/1d444ecd27.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <i class="fa-solid fa-shoe-prints"></i>
+    <i class="fa-solid fa-robot"></i>
+    <i class="fa-solid fa-person-running"></i>
+    
+    <div class="title">
+      <b>パラパラ漫画</b>
+      <p>ドラえもんの早歩き</p>
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><</button>
+      <img src="https://www.tv-asahi.co.jp/doraemon/cast/img/doraemon.jpg">
+      <button type="button" onclick="right()">></button>
+    </div>
+    <div class="control">
+      <button onclick="play()">再生
+        <i class="fa-solid fa-forward-step"></i></button>
+      <button onclick="stop()">停止
+        <i class="fa-solid fa-stop"></i></button>
+      <button onclick="reset()">リセット
+        <i class="fa-solid fa-arrow-rotate-left"></i></button>
+    </div>
+    <p>原作：藤子・F・不二雄</p>
+    <script src="js/slidShow.js"></script>
+  </body>
+</html>
